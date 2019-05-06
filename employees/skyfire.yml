@@ -1,19 +1,38 @@
 #天火
-#术士-Caster
-
-生命上限=954
-攻击=509
-防御=74
-法术抗性=10
-再部署=slow
-部署费用=30
-阻挡数=1
-攻击速度=slow
-
-信赖度=46%
-
-攻击范围{
-XX
-OXX
-XX
-}
+name: skyfire
+#职业:术士
+career:Caster
+#生命上限
+hp:686
+#攻击力
+aggressivity:332
+#防御力
+defensive:48
+#法术抗性
+spell_resistance:10
+#再部署
+redeploy:slow
+#部署费用
+deployment_cost:30
+#阻挡数
+blocking_number:1
+#攻击速度
+attack_speed:slow
+#初始攻击范围
+attack_range_default:{
+    line_1:XX
+    line_2:OXX
+    line_3:XX
+    }
+#精英化1攻击范围
+attack_range_elite1:{
+    line_1:XXX
+    line_2:OXX
+    line_3:XXX
+    }
+#初始攻击范围
+attack_range_elite2:{
+    line_1:XXX
+    line_2:OXX
+    line_3:XXX
+    }
