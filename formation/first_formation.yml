@@ -1,0 +1,14 @@
+employees1:{
+    name:skyfire
+    level:52
+    reliability:65
+    elite_level:1
+    proficiency_level:1
+    }
+employees2:{
+    name:platinum
+    level:51
+    reliability:64
+    elite_level:1
+    proficiency_level:1
+}

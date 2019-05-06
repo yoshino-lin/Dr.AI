@@ -19,6 +19,19 @@ blocking_number:1
 #攻击速度
 attack_speed:slow
 #初始攻击范围
+proficiency_level_up:{
+    #部署费用-1
+    deployment_cost_add:-1
+    #再部署时间-4秒
+    redeploy_add:-4
+    #攻击力+33
+    aggressivity_add:33
+    #天赋效果增强（+3%）
+    skill_aggressivity_add:3
+    #部署费用-1
+    deployment_cost_add:-1
+}
+#初始攻击范围
 attack_range_default:{
     line_1:XX
     line_2:OXX
@@ -30,9 +43,12 @@ attack_range_elite1:{
     line_2:OXX
     line_3:XXX
     }
-#初始攻击范围
+#精英化2攻击范围
 attack_range_elite2:{
     line_1:XXX
     line_2:OXX
     line_3:XXX
     }
+#技能
+skill:{
+}
