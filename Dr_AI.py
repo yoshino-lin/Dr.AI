@@ -2,6 +2,12 @@
 import json,os
 import linecache
 import yaml
+import time
+#截图
+import win32gui, win32ui, win32con, win32api
+#图片识别
+import pytesseract
+from PIL import ImageGrab, Image
 
 #读取文件
 employees_load = (len(open("employees\skyfire.yml",'r',encoding='utf-8').readlines())) #获取干员信息
