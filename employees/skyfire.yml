@@ -1,54 +1,49 @@
 #天火
 name: skyfire
 #职业:术士
-career:Caster
+career: Caster
 #生命上限
-hp:686
+hp: 686
 #攻击力
-aggressivity:332
+aggressivity: 332
 #防御力
-defensive:48
+defensive: 48
 #法术抗性
-spell_resistance:10
+spell_resistance: 10
 #再部署
-redeploy:slow
+redeploy: slow
 #部署费用
-deployment_cost:30
+deployment_cost: 30
 #阻挡数
-blocking_number:1
+blocking_number: 1
 #攻击速度
-attack_speed:slow
+attack_speed: slow
 #初始攻击范围
-proficiency_level_up:{
+proficiency_level_up:
     #部署费用-1
-    deployment_cost_add:-1
+    deployment_cost_add: -1
     #再部署时间-4秒
-    redeploy_add:-4
+    redeploy_add: -4
     #攻击力+33
-    aggressivity_add:33
+    aggressivity_add: 33
     #天赋效果增强（+3%）
-    skill_aggressivity_add:3
+    skill_aggressivity_add: 3
     #部署费用-1
-    deployment_cost_add:-1
-}
+    deployment_cost_add: -1
 #初始攻击范围
-attack_range_default:{
-    line_1:XX
-    line_2:OXX
-    line_3:XX
-    }
+attack_range_default: 
+    line_1: XX
+    line_2: OXX
+    line_3: XX
 #精英化1攻击范围
-attack_range_elite1:{
-    line_1:XXX
-    line_2:OXX
-    line_3:XXX
-    }
+attack_range_elite1:
+    line_1: XXX
+    line_2: OXX
+    line_3: XXX
 #精英化2攻击范围
-attack_range_elite2:{
-    line_1:XXX
-    line_2:OXX
-    line_3:XXX
-    }
+attack_range_elite2:
+    line_1: XXX
+    line_2: OXX
+    line_3: XXX
 #技能
-skill:{
-}
+skill: 1
