@@ -2,6 +2,11 @@
 import json,os
 import linecache
 import yaml
+#截图
+import win32gui, win32ui, win32con, win32api
+#图片识别
+import pytesseract
+from PIL import ImageGrab, Image
 
 #地图载入
 map_file = "maps\CE-3.yml"
